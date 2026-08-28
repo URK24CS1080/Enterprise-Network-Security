@@ -1,0 +1,7 @@
+Attack_ID,Source,Source_IP,Target,Target_IP,Attack_Type,Expected,Observed,Result
+BASE-01,APP-A,10.10.30.10,DB-A,10.10.50.10,Authorized Access,ALLOW,Reachable,ALLOWED
+ATK-01,APP-A,10.10.30.10,DB-B,10.10.60.10,Lateral Movement,DENY,Destination host unreachable,BLOCKED
+ATK-02,APP-A,10.10.30.10,APP-B,10.10.31.10,Lateral Movement,DENY,Destination host unreachable,BLOCKED
+ATK-03,APP-A,10.10.30.10,DB-C,10.10.70.10,Lateral Movement,DENY,Destination host unreachable,BLOCKED
+ATK-04,APP-A,10.10.30.10,Cloud App,10.20.10.10,Cloud Access,DENY,Destination host unreachable,BLOCKED
+ATK-05,APP-A,10.10.30.10,Cloud DB,10.20.20.10,Cloud Access,DENY,Destination host unreachable,BLOCKED
