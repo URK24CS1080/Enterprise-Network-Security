@@ -15,7 +15,7 @@ The system includes:
 ## Project Structure
 
 ```text
-Member3-Security/
+Enterprise Security/
 │
 ├── data/
 │   └── policy_validation.csv
