@@ -1,0 +1,2 @@
+timestamp,test_id,alert_level,source,source_ip,destination,destination_ip,message
+2026-08-28T00:59:44,14,WARNING,APP-C,10.10.32.10,DB-C,10.10.70.10,Policy review required: APP-C (10.10.32.10) → DB-C (10.10.70.10). Expected policy is not established; observed behavior: Reachable.
